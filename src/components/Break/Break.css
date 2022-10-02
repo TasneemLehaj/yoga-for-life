@@ -1,0 +1,15 @@
+.break-btn-div {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+.add-btn2 {
+    background-color: lightseagreen;
+    color: darkblue;
+    font-size: 18px;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+
+}

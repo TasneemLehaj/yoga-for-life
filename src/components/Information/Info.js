@@ -9,8 +9,14 @@ const Info = () => {
                     <img src={personalImage} alt="" /></div>
                 <div>
                     <h4>Tasneem Lehaj</h4>
-                    <p><small>Dhaka,Bangladesh</small></p>
+                    <h5><small>Dhaka,Bangladesh</small></h5>
+                    <h5><b>Weight: 57kg</b></h5>
+                    <h5><b>Height:5'3"</b></h5>
+                    <h5><b>Age: 28yrs</b></h5>
                 </div>
+            </div>
+            <div>
+                <p></p>
             </div>
 
 

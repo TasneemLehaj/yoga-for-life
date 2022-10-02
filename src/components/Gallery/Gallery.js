@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Gallery.css'
 import Card from '../Card/Card';
 import Info from '../Information/Info';
+import Break from '../Break/Break';
 const Gallery = () => {
 
     const [cards, setCards] = useState([]);
@@ -30,6 +31,7 @@ const Gallery = () => {
 
             <div className='info-container'>
                 <Info></Info>
+                <Break></Break>
             </div>
 
         </div>
