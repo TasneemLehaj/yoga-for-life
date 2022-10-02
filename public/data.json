@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "img": "pexels-elina-fairytale-3823185.jpg",
+        "description": "An exercise which keeps your body fit and perfect.",
+        "time": "30s",
+        "activityName": "Noelle Summers"
+    },
+    {
+        "id": "2",
+        "img": "pexels-elina-fairytale-3823075.jpg",
+        "description": "An exercise which keeps your body fit and perfect.",
+        "time": "30s",
+        "activityName": "Sheryl Suarez"
+    },
+    {
+        "id": "3",
+        "img": "pexels-elina-fairytale-3823039.jpg",
+        "description": "An exercise which keeps your body fit and perfect.",
+        "time": "30s",
+        "activityName": "Brittney Howell"
+    },
+    {
+        "id": "4",
+        "img": "pexels-elina-fairytale-3823187.jpg",
+        "description": "An exercise which keeps your body fit and perfect.",
+        "time": "30s",
+        "activityName": "Small Bond"
+    },
+    {
+        "id": "5",
+        "img": "pexels-elina-fairytale-3823063.jpg",
+        "description": "An exercise which keeps your body fit and perfect.",
+        "time": "30s",
+        "activityName": "Lowery Carrillo"
+    },
+    {
+        "id": "6",
+        "img": "pexels-elina-fairytale-3823076.jpg",
+        "description": "An exercise which keeps your body fit and perfect.",
+        "time": "30s",
+        "activityName": "Lowery Carrillo"
+    }
+]
