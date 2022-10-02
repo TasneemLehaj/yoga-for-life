@@ -1,0 +1,17 @@
+.gallery {
+    background-color: lavenderblush;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.info-container {
+    position: sticky;
+    top: 0;
+    background: rgb(254, 240, 255);
+}

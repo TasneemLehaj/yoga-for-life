@@ -1,0 +1,17 @@
+.heading {
+    background-color: rgb(244, 240, 255);
+    color: darkslateblue;
+    display: flex;
+    justify-content: center;
+
+}
+
+.heading img {
+    width: 80px;
+    height: 60px;
+}
+
+.heading h4 {
+    display: flex;
+    align-items: center;
+}

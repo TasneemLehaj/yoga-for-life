@@ -1,12 +1,15 @@
 
 import './App.css';
-import yogaImage from './img/yogalogo.png'
+import Gallery from './components/Gallery/Gallery';
+import Heading from './components/Heading/Heading';
+import Info from './components/Information/Info';
 
 function App() {
   return (
-    <div className="heading">
-      <h2> YOGA FOR LIFE </h2>
-      <img src={yogaImage} alt="" />
+    <div>
+      <Heading></Heading>
+      <Gallery></Gallery>
+
     </div>
   );
 }
