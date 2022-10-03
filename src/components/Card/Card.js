@@ -2,6 +2,7 @@ import React from 'react';
 import './Card.css'
 const Card = (props) => {
     console.log(props);
+    const { handleAddToBtn } = props;
     const { img, description, time, activityName } = props.card
 
     return (
@@ -10,7 +11,7 @@ const Card = (props) => {
             <h4>Activity Name :{activityName}</h4>
             <p>Description : {description}</p>
             <p> Time :<b> {time} </b></p>
-            <button className='add-btn'> Add To List </button>
+            <button onClick={() => props.handleAddToBtn(props.card)} className='add-btn'> Add To List </button>
         </div>
     );
 };

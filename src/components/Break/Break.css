@@ -13,3 +13,7 @@
     border-radius: 50%;
 
 }
+
+.add-btn2:hover {
+    color: aquamarine;
+}

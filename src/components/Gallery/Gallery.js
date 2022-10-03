@@ -3,6 +3,8 @@ import './Gallery.css'
 import Card from '../Card/Card';
 import Info from '../Information/Info';
 import Break from '../Break/Break';
+import ExerciseTime from '../Exercise/ExerciseTime';
+import Question from '../Questions/Questions'
 const Gallery = () => {
 
     const [cards, setCards] = useState([]);
@@ -16,6 +18,11 @@ const Gallery = () => {
 
 
 
+    const handleAddToBtn = (props) => {
+
+        console.log(props.card);
+    }
+
     return (
         <div className='gallery'>
             <div className='card-container'>
@@ -23,16 +30,22 @@ const Gallery = () => {
                     cards.map(card => <Card
                         key={card.id}
                         card={card}>
+                        handleAddToBtn={handleAddToBtn}
                     </Card>
                     )
                 }
+                <Question></Question>
             </div>
-
 
             <div className='info-container'>
                 <Info></Info>
                 <Break></Break>
+                <ExerciseTime></ExerciseTime>
+
+                <button className='add-btn'> Activity Completed </button>
+
             </div>
+
 
         </div>
     );
