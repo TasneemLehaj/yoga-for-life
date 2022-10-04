@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import './Info.css'
 import personalImage from '../../img/Tasneem.jpg'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Info = ({ sumTime }) => {
-    // const notify = () => toast('WOW... Completed the all event!');
+
+    const notify = () => toast.success(" Good Job! You finished it successfully!");
 
     const [time, setTime] = useState([]);
     const breakTime = (timeAdded) => {
@@ -65,8 +68,11 @@ const Info = ({ sumTime }) => {
                 <p>  </p>
             </div>
 
-            <button className='add-btn'> Activity Completed </button>
+            <div>
+                <button onClick={notify} className='add-btn'> Activity Completed </button>
+            </div>
 
+            <ToastContainer />
 
         </div>
     );
