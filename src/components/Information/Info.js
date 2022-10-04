@@ -21,19 +21,11 @@ const Info = ({ sumTime }) => {
         }
     }, []);
 
+
     let total = 0;
-    for (const sumCount of sumTime) {
-        total = total + sumCount.time;
+    for (const count of sumTime) {
+        total = total + count.time;
     }
-
-
-
-
-
-    // let total = 0;
-    // for (const sum of sumTime) {
-    //     total = total + sum.time
-    // }
 
 
     return (
@@ -59,13 +51,11 @@ const Info = ({ sumTime }) => {
 
 
             <div>
-                <h3>Exercise Time: {total} </h3>
-                <p> </p>
+                <h3>Exercise Time: {total}s </h3>
             </div>
 
             <div>
                 <h3> Break Time: {time} </h3>
-                <p>  </p>
             </div>
 
             <div>

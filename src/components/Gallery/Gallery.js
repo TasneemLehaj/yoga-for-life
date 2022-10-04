@@ -29,8 +29,8 @@ const Gallery = () => {
                 {
                     cards.map(card => <Card
                         key={card.id}
-                        card={card}>
-                        handleAddToBtn={handleAddToBtn}
+                        card={card}
+                        handleAddToBtn={handleAddToBtn}>
                     </Card>
                     )
                 }
