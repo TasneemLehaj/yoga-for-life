@@ -1,17 +1,17 @@
 import React from 'react';
 import './Card.css'
-const Card = (props) => {
-    console.log(props);
-    const { handleAddToBtn } = props;
-    const { img, description, time, activityName } = props.card
+const Card = ({ card, handleAddToBtn }) => {
+    // console.log(props);
+
+    const { img, description, time, activityName } = card;
 
     return (
         <div className='card'>
             <img src={img} alt="" />
             <h4>Activity Name :{activityName}</h4>
             <p>Description : {description}</p>
-            <p> Time :<b> {time} </b></p>
-            <button onClick={() => props.handleAddToBtn(props.card)} className='add-btn'> Add To List </button>
+            <p> Time required :<b> {time} </b></p>
+            <button onClick={() => handleAddToBtn(card)} className='add-btn'> Add To List </button>
         </div>
     );
 };

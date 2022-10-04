@@ -2,12 +2,12 @@ import React, { useEffect, useState } from 'react';
 import './Gallery.css'
 import Card from '../Card/Card';
 import Info from '../Information/Info';
-import Break from '../Break/Break';
-import ExerciseTime from '../Exercise/ExerciseTime';
 import Question from '../Questions/Questions'
 const Gallery = () => {
 
     const [cards, setCards] = useState([]);
+
+    const [sumTime, setSumTime] = useState([]);
 
     useEffect(() => {
 
@@ -17,10 +17,10 @@ const Gallery = () => {
     }, [])
 
 
+    const handleAddToBtn = (card) => {
+        const sum = [...sumTime, card];
+        setSumTime(sum);
 
-    const handleAddToBtn = (props) => {
-
-        console.log();
     }
 
     return (
@@ -38,11 +38,8 @@ const Gallery = () => {
             </div>
 
             <div className='info-container'>
-                <Info></Info>
-                <Break></Break>
-                <ExerciseTime></ExerciseTime>
 
-                <button className='add-btn'> Activity Completed </button>
+                <Info sumTime={sumTime}></Info>
 
             </div>
             <div >
