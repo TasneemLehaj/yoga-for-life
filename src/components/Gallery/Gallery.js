@@ -20,7 +20,7 @@ const Gallery = () => {
 
     const handleAddToBtn = (props) => {
 
-        console.log(props.card);
+        console.log();
     }
 
     return (
@@ -34,7 +34,7 @@ const Gallery = () => {
                     </Card>
                     )
                 }
-                <Question></Question>
+
             </div>
 
             <div className='info-container'>
@@ -45,7 +45,9 @@ const Gallery = () => {
                 <button className='add-btn'> Activity Completed </button>
 
             </div>
-
+            <div >
+                <Question></Question>
+            </div>
 
         </div>
     );

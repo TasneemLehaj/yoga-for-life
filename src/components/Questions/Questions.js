@@ -4,11 +4,19 @@ import './Questions.css'
 const Questions = () => {
     return (
         <div className='question'>
+
+            {/* question 1 */}
+            <div>
+                <h2>Q.How does react work?</h2>
+                <p><b>Answer:</b> React divides the UI into isolated reusable pieces of code known as components. React components work similarly to JavaScript functions as they accept arbitrary inputs called properties or props. It's possible to have as many components as necessary without cluttering the code. React uses a declarative paradigm that makes it easier to reason abput the application and aims to be both efficient and flexible.It designs simple views for each state in the application and efficiently updates and render the right component when the data changes.
+                </p>
+
+            </div>
             {/* quesition 2 */}
             <div>
                 <h2>Q. What are the difference between Props and State?</h2>
                 <p><b>Answer:</b> We can pass the data between the components using Props and State. But here are some differences between these two.</p>
-                <p> <b>Props:</b> </p> Props are known as properties. It can be used to pass data from one component to another.
+                <p><b>Props:</b></p>Props are known as properties. It can be used to pass data from one component to another.
                 <p><b>State:</b> State represents parts of an application that can change.Each component can have its state.</p>
                 <p>Main differences between them are -- in Props, data can pass from one component to another but in case of State the data is passed within the component only. Also, Props are immutable which means it cannot be modified. On the other hand, State is mutable.</p>
                 <p>Props are read only,but Stateis both read and write.</p>

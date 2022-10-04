@@ -7,6 +7,11 @@
     padding: 20px;
 }
 
+.card img {
+    width: 250px;
+    height: 200px;
+}
+
 .add-btn {
     background-color: lightseagreen;
     color: darkblue;
