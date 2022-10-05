@@ -49,17 +49,19 @@ const Info = ({ sumTime }) => {
                 <button onClick={() => breakTime('40s')} className='add-btn2'> 40s</button>
             </div>
 
+            <div className='info-time-div'>
+                <div>
+                    <h3>Exercise Time: {total}s </h3>
+                </div>
 
-            <div>
-                <h3>Exercise Time: {total}s </h3>
-            </div>
+                <div>
+                    <h3> Break Time: {time} </h3>
+                </div>
 
-            <div>
-                <h3> Break Time: {time} </h3>
-            </div>
+                <div>
+                    <button onClick={notify} className='add-btn'> Activity Completed </button>
+                </div>
 
-            <div>
-                <button onClick={notify} className='add-btn'> Activity Completed </button>
             </div>
 
             <ToastContainer />
