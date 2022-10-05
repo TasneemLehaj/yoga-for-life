@@ -8,7 +8,7 @@ const Card = ({ card, handleAddToBtn }) => {
     return (
         <div className='card'>
             <img src={img} alt="" />
-            <h4>Activity Name :{activityName}</h4>
+            <h4>Activity Name : {activityName}</h4>
             <p>Description : {description}</p>
             <p> Time required :<b> {time} </b></p>
             <button onClick={() => handleAddToBtn(card)} className='add-btn'> Add To List </button>

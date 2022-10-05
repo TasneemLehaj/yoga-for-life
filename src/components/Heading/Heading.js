@@ -5,9 +5,10 @@ import './Heading.css'
 const Heading = () => {
     return (
         <div className='heading'>
-            <h2> YOGA FOR LIFE </h2>
+            <h2> YOGA FOR LIFE :
+                <span className='sub-logo'> Select Today's Exercise </span>
+            </h2>
             <img src={yogaImage} alt="" />
-            {<h4> Select Today's Exercise </h4>}
         </div>
     );
 };
